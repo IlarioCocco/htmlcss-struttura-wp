@@ -5,7 +5,6 @@
 }
 
 /* common */
-
 .clearfix::after {
     content: "";
     display: table;
@@ -13,3 +12,67 @@
 }
 
 
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* header */
+.header {
+    margin-bottom: 0px;
+    height: 300px;
+    background-color: rgb(255, 161, 227); 
+    margin: 100px;
+}
+
+.header2 {
+    margin-bottom: 0px;
+    height: 1200px;
+    background-color: rgb(233, 223, 133); 
+    margin: 100px;
+}
+
+.nav {
+    margin-bottom: 0px;
+    height: 300px;
+    background-color: rgb(154, 218, 255); 
+    margin: 100px;
+}
+
+
+/* main */
+.col-rx, .col-center, .col-lx {
+    float: left;
+}
+
+.col-lx {
+    float: left;
+    background-color: rgb(154, 218, 255); 
+    width: 20%;
+    margin: 100px;
+    height: 1500px;
+}
+
+.col-rx {
+    float: right;
+    background-color: rgb(154, 218, 255); 
+    width: 20%;
+    margin: 100px; 
+    height: 1500px;
+}
+
+.col-center {
+    background-color: rgb(154, 218, 255);
+    width: 46%;
+    margin: 100px;
+    height: 1500px;
+}
+
+
+/* footer */
+.footer {
+    margin-bottom: 0px;
+    height: 300px;
+    background-color: rgb(135, 44, 255); 
+    margin: 100px;
